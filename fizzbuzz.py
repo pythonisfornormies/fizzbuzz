@@ -44,12 +44,12 @@ Fizz
 Fizz
 Buzz
 """
-
+ihatepython = input("How many numbers shall we print? ")
 f = input("For multiples of what number shall we print 'Fizz'? ")
 b = input("For multiples of what number shall we print 'Buzz'? ")
 fizz = int(f)
 buzz = int(b)
-
+p = int(ihatepython) + 1
 """
   if (theNumber is divisble by 3) and (theNumber is divisible by 5) then
 	print "FizzBuzz"
@@ -62,7 +62,7 @@ buzz = int(b)
   end if
 """
 
-for i in range(1,101):
+for i in range(1,p):
     if i%fizz == 0 and i%buzz == 0:
         print("FizzBuzz")
     elif i%fizz == 0:
