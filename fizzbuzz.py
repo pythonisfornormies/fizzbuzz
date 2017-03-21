@@ -50,13 +50,25 @@ b = input("For multiples of what number shall we print 'Buzz'? ")
 fizz = int(f)
 buzz = int(b)
 
+"""
+  if (theNumber is divisble by 3) and (theNumber is divisible by 5) then
+	print "FizzBuzz"
+  else if (theNumber is divisible by 3) then
+	print "Fizz"
+  else if (theNumber is divisible by 5) then
+	print "Buzz"
+  else /* theNumber is not divisible by 3 or 5 */
+	print theNumber
+  end if
+"""
+
 for i in range(1,101):
-    print(i, "%:",i%fizz)
-    if i%fizz == 0:
-        print("fizz")
-        if i%buzz == 0:
-            print("buzz") 
-            
-
-
+    if i%fizz == 0 and i%buzz == 0:
+        print("FizzBuzz")
+    elif i%fizz == 0:
+        print("Fizz")
+    elif i%buzz == 0:
+        print("Buzz")
+    else:
+        print(i)
         
