@@ -1,7 +1,7 @@
 """
 fizzbuzz.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Kai Darrow
+Credit: http://wiki.c2.com/?FizzBuzzTest
 
 Assignment:
 
@@ -72,3 +72,10 @@ for i in range(1,101):
     else:
         print(i)
         
+"""
+I did not look at the Python examples until I had finished this challenge --
+I ended up forming my code off of the BASIC-esque example provided. I found this
+a lot more comfortable -- perhaps this will help me in future projects? I did 
+notice that this wasn't the most efficient (though I did not have to import any commands)
+but it gets the job done!
+"""
